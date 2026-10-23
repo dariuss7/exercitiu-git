@@ -49,7 +49,7 @@ def main():
     a = p.parse_args()
 
     tinte = incarca(a.fisier)
-    print("Tinte citite: " + len(tinte))
+    print("Tinte citite: " + len(tinte)) #am corectat tinta in tinte
 
     grupe = pe_servicii(tinte)
     for serviciu, porturi in grupe.items():
